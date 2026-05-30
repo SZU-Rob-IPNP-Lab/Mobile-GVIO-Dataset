@@ -148,6 +148,9 @@ Dataset: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to s
 
 ## Citation
 
+Under review...
+
+<!-- 
 ```bibtex
 @article{song2026mobile,
   title   = {Mobile-GVIO: A Mobile Devices-Based GNSS-Visual-Inertial
@@ -159,7 +162,7 @@ Dataset: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to s
   note    = {Under review}
 }
 ```
-
+-->
 ## Contact
 
 - **Jiangbo Song** — [songjb@szu.edu.cn](mailto:songjb@szu.edu.cn)

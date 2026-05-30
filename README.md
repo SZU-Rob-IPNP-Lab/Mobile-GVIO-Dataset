@@ -148,6 +148,9 @@ Dataset: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to s
 
 ## Citation
 
+title   = {Mobile-GVIO: A Mobile Devices-Based GNSS-Visual-Inertial
+             Adaptive Fusion Method for Complex Urban Environments}
+             
 Under review...
 
 <!-- 

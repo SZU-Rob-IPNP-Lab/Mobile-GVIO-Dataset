@@ -149,13 +149,13 @@ Dataset: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to s
 ## Citation
 
 ```bibtex
-@article{song2025mobile,
+@article{song2026mobile,
   title   = {Mobile-GVIO: A Mobile Devices-Based GNSS-Visual-Inertial
              Adaptive Fusion Method for Complex Urban Environments},
   author  = {Song, Jiangbo and Hu, Yining and Su, Liang and Li, Jiahao and
              Li, Wanqing and Zhou, Baoding},
-  journal = {IEEE Transactions on Instrumentation and Measurement},
-  year    = {2025},
+  journal = {XXX},
+  year    = {XXX},
   note    = {Under review}
 }
 ```

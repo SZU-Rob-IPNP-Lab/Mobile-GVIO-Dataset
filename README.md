@@ -38,7 +38,7 @@ Indoor-outdoor sequences cover indoor corridors, outdoor squares, narrow passage
 
 The dataset is available at:
 
-> [**Download Link**](https://example.com) *(to be updated)*
+> [**Download Link**]((https://doi.org/10.5281/zenodo.20525157)) *(to be updated)*
 
 Each sequence is packaged as a ROS `.bag` file with its ground truth trajectory. See the [Data Structure](#data-structure) section for details.
 

@@ -25,7 +25,7 @@ Indoor-outdoor sequences cover indoor corridors, outdoor squares, narrow passage
 <p align="center">
   <img src="io1_satellite.jpg" alt="IO-1 satellite view" width="45%">
   <img src="io2_satellite.jpg" alt="IO-2 satellite view" width="45%">
-  <br><em>Satellite trajectory overlay: IO-1 (left) and IO-2 (right). Ground truth (black), raw GPS (orange), fusion without gating (blue), and Mobile-GVIO (red).</em>
+  <br><em>Satellite trajectory overlay: IO-1 (left) and IO-2 (right). Ground truth (red), raw GPS (blue).</em>
 </p>
 
 <p align="center">

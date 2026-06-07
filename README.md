@@ -4,7 +4,7 @@ A fine-grained multi-sensor dataset for GNSS-Visual-Inertial fusion evaluation i
 
 ## Overview
 
-This dataset accompanies the paper **"Mobile-GVIO: A Mobile Devices-Based GNSS-Visual-Inertial Adaptive Fusion Method for Complex Urban Environments"**. It provides synchronized monocular camera images, IMU measurements, consumer-grade GNSS observations, and centimeter-level ground truth trajectories for seven real-world sequences across three environment types.
+This dataset accompanies the paper **"Mobile-GVIO: A Mobile Devices-Based GNSS-Visual-Inertial Adaptive Fusion Method for Complex Urban Environments"**. It provides synchronized monocular camera images, IMU measurements, consumer-grade GNSS observations, and ground truth trajectories for seven real-world sequences across three environment types.
 
 ## Sequences
 
@@ -18,7 +18,7 @@ This dataset accompanies the paper **"Mobile-GVIO: A Mobile Devices-Based GNSS-V
 | **Indoor-1** | Pure Indoor | ~137 m | ~149 s | No |
 | **Indoor-2** | Pure Indoor | ~91 m | ~91 s | No |
 
-Indoor-outdoor sequences cover indoor corridors, outdoor squares, narrow passages, stationary periods, and environment transitions. Pure outdoor sequences have generally available GNSS with local blockages and multipath. Indoor sequences serve as VIO-only baselines.
+Indoor-outdoor sequences cover indoor corridors, outdoor squares, narrow passages, and environment transitions. Pure outdoor sequences have generally available GNSS with local blockages and multipath. Indoor sequences serve as VIO-only baselines.
 
 ### Sample Trajectories
 
@@ -84,7 +84,6 @@ Each `.bag` file contains three topics:
 | `/imu0` | `sensor_msgs/Imu` | ~100 Hz | 6-axis IMU from Honor smartphone |
 | `/gnss0` | `sensor_msgs/NavSatFix` | ~1 Hz | WGS-84 fixes from iPhone 11 Pro Max |
 
-Indoor sequences have GNSS data with inflated covariance (>400 m²) or NaN — these should be filtered before use.
 
 ### Ground Truth Format
 
@@ -112,7 +111,7 @@ Example:
 | GNSS | iPhone 11 Pro Max | WGS-84 GNSS @ 1 Hz, carried alongside by operator |
 | Ground Truth | LiDAR-IMU system | Centimeter-level reference via Fast-LIO2, rigidly mounted |
 
-The Honor smartphone and LiDAR-IMU are rigidly mounted on a stable frame. The iPhone for GNSS is carried simultaneously (in pocket or hand). Temporal synchronization between the two phones is achieved via sharp turning maneuvers at session start/end with offline cross-correlation.
+The Honor smartphone and LiDAR-IMU are rigidly mounted on a stable frame. The iPhone for GNSS is carried simultaneously (in pocket or hand).
 
 ## Calibration
 
